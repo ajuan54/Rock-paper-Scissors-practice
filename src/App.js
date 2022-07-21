@@ -5,9 +5,7 @@ import { useState } from "react";
 const actions = {
   rock: ["scissors"],
   paper: ["rock"],
-  scissors: ["paper"],
-  lizard: ["paper"],
-  spock: ["scissors"]
+  scissors: ["paper"]
 };
 
 function randomAction() {
